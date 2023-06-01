@@ -1,0 +1,28 @@
+.main-slide-item {
+    @media screen and (max-width: 767px) {
+        padding-top: 150px !important;
+    }
+
+    .slider-content-container {
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+}
+
+.nc-Header {
+    .ttnc-logo {
+        img {
+            @media screen and (max-width: 767px) {
+                padding: 0px 10px;
+            }
+
+
+            @media screen and (max-width: 520px) {
+                height: auto !important;
+                width: 100px !important;
+                padding: 0px 10px;
+            }
+        }
+    }
+}
